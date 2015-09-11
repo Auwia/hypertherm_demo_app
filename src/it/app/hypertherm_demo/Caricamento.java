@@ -1,8 +1,8 @@
-package it.app.hypertherm;
+package it.app.hypertherm_demo;
 
-import it.app.hypertherm.db.HyperthermDB;
-import it.app.hypertherm.db.HyperthermDataSource;
-import it.app.hypertherm.util.Utility;
+import it.app.hypertherm_demo.db.HyperthermDB;
+import it.app.hypertherm_demo.db.HyperthermDataSource;
+import it.app.hypertherm_demo.util.Utility;
 
 import java.io.BufferedReader;
 import java.io.DataInputStream;

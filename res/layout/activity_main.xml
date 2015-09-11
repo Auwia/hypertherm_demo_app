@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    tools:context="it.app.hypertherm.activity.MainActivity" >
+    tools:context="it.app.hypertherm_demo.activity.MainActivity" >
 
     <LinearLayout
         android:layout_width="fill_parent"
@@ -14,8 +14,8 @@
 
         <ImageView
             android:id="@+id/logo"
-            android:layout_width="300dp"
-            android:layout_height="100dp"
+            android:layout_width="200dp"
+            android:layout_height="80dp"
             android:contentDescription="@string/app_name" />
     </LinearLayout>
 

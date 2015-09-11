@@ -1,4 +1,4 @@
-package it.app.hypertherm.db;
+package it.app.hypertherm_demo.db;
 
 import android.content.Context;
 import android.database.SQLException;

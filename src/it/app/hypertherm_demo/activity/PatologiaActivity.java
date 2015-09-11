@@ -1,8 +1,8 @@
-package it.app.hypertherm.activity;
+package it.app.hypertherm_demo.activity;
 
-import it.app.hypertherm.PatologiaListViewAdapter;
 import it.app.hypertherm.R;
-import it.app.hypertherm.util.Utility;
+import it.app.hypertherm_demo.PatologiaListViewAdapter;
+import it.app.hypertherm_demo.util.Utility;
 
 import java.io.File;
 

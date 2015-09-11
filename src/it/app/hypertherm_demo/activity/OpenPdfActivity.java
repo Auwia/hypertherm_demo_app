@@ -1,4 +1,4 @@
-package it.app.hypertherm.activity;
+package it.app.hypertherm_demo.activity;
 
 import it.app.hypertherm.R;
 import net.sf.andpdf.pdfviewer.PdfViewerActivity;
@@ -29,7 +29,8 @@ public class OpenPdfActivity extends PdfViewerActivity {
 	}
 
 	public int getExitImageResource() {
-		return R.drawable.exit;
+		// return R.drawable.exit;
+		return 1; //da eliminare e decommentare la riga precedente
 	}
 
 	public int getPdfPasswordLayoutResource() {

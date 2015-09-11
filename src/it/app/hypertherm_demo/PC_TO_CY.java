@@ -1,6 +1,6 @@
-package it.app.hypertherm;
+package it.app.hypertherm_demo;
 
-import it.app.hypertherm.util.Utility;
+import it.app.hypertherm_demo.util.Utility;
 
 import java.util.Arrays;
 

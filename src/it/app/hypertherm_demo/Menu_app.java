@@ -1,4 +1,4 @@
-package it.app.hypertherm;
+package it.app.hypertherm_demo;
 
 public class Menu_app {
 

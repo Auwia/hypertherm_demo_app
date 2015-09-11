@@ -1,9 +1,10 @@
-package it.app.hypertherm.activity;
+package it.app.hypertherm_demo.activity;
 
-import it.app.hypertherm.MenuListViewAdapter;
 import it.app.hypertherm.R;
-import it.app.hypertherm.db.HyperthermDB;
-import it.app.hypertherm.util.Utility;
+import it.app.hypertherm_demo.Caricamento;
+import it.app.hypertherm_demo.MenuListViewAdapter;
+import it.app.hypertherm_demo.db.HyperthermDB;
+import it.app.hypertherm_demo.util.Utility;
 
 import java.io.File;
 
@@ -14,6 +15,7 @@ import android.content.SharedPreferences;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Color;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Environment;
 import android.preference.PreferenceManager;
@@ -51,6 +53,10 @@ public class MainActivity extends Activity {
 		setContentView(R.layout.activity_main);
 
 		utility = new Utility(this);
+
+		new import_configuration_thread().execute();
+
+		new Caricamento(this);
 
 		preferences = PreferenceManager.getDefaultSharedPreferences(this);
 		preferences.edit().putBoolean("isMenu", true).commit();
@@ -184,6 +190,33 @@ public class MainActivity extends Activity {
 				utility.get_menu_items(HyperthermDB.TABLE_MENU));
 		listaMenuItem = (ListView) findViewById(R.id.listaMenuItem);
 		listaMenuItem.setAdapter(myAdapter);
+	}
+
+	private class import_configuration_thread extends
+			AsyncTask<Void, Void, Void> {
+		// ProgressDialog pdLoading = new ProgressDialog(
+		// Splash_Screen_Activity.this);
+
+		@Override
+		protected void onPreExecute() {
+			super.onPreExecute();
+
+			utility.appendLog("import file configuration...");
+		}
+
+		@Override
+		protected Void doInBackground(Void... params) {
+
+			return null;
+		}
+
+		@Override
+		protected void onPostExecute(Void result) {
+			super.onPostExecute(result);
+
+			utility.appendLog("import file configuration...OK");
+		}
+
 	}
 
 }

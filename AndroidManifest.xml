@@ -15,14 +15,10 @@
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:manageSpaceActivity="it.app.hypertherm.activity.MainActivity"
+        android:manageSpaceActivity="it.app.hypertherm_demo.activity.MainActivity"
         android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
-        <service
-            android:name=".Service_boot"
-            android:enabled="true" />
-
         <activity
-            android:name=".activity.Splash_Screen_Activity"
+            android:name="it.app.hypertherm_demo.activity.MainActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/app_name"
             android:launchMode="singleTop"
@@ -35,49 +31,34 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".activity.SettingsActivity"
-            android:label="@string/title_activity_settings" >
-        </activity>
-
-        <receiver
-            android:name=".autostart"
-            android:enabled="true"
-            android:permission="android.permission.RECEIVE_BOOT_COMPLETED" >
-            <intent-filter>
-                <action android:name="android.intent.action.BOOT_COMPLETED" />
-                <action android:name="android.intent.action.USER_PRESENT" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </receiver>
-
-        <activity
-            android:name=".activity.MainActivity"
-            android:label="@string/title_activity_main" >
+            android:name="it.app.hypertherm_demo.activity.SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:screenOrientation="landscape" >
         </activity>
         <activity
-            android:name=".activity.WorkActivity"
-            android:label="@string/title_activity_work" >
+            android:name="it.app.hypertherm_demo.activity.WorkActivity"
+            android:label="@string/title_activity_work"
+            android:screenOrientation="landscape" >
         </activity>
         <activity
-            android:name=".activity.TessutoActivity"
-            android:label="@string/title_activity_tessuto" >
+            android:name="it.app.hypertherm_demo.activity.TessutoActivity"
+            android:label="@string/title_activity_tessuto"
+            android:screenOrientation="landscape" >
         </activity>
         <activity
-            android:name=".activity.Tessuto2Activity"
-            android:label="@string/title_activity_tessuto2" >
+            android:name="it.app.hypertherm_demo.activity.PatologiaActivity"
+            android:label="@string/title_activity_patologia"
+            android:screenOrientation="landscape" >
         </activity>
         <activity
-            android:name=".activity.PatologiaActivity"
-            android:label="@string/title_activity_patologia" >
+            android:name="it.app.hypertherm_demo.activity.StrutturaProfonditaActivity"
+            android:label="@string/title_activity_struttura_profondita"
+            android:screenOrientation="landscape" >
         </activity>
         <activity
-            android:name=".activity.StrutturaProfonditaActivity"
-            android:label="@string/title_activity_struttura_profondita" >
-        </activity>
-        <activity
-            android:name="it.app.hypertherm.activity.OpenPdfActivity"
-            android:label="@string/title_activity_open_pdf" >
+            android:name="it.app.hypertherm_demo.activity.OpenPdfActivity"
+            android:label="@string/title_activity_open_pdf"
+            android:screenOrientation="landscape" >
         </activity>
     </application>
 

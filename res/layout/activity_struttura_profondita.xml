@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:background="#c6ecf1"
     android:orientation="vertical"
-    tools:context="it.app.hypertherm.activity.StrutturaProfonditaActivity" >
+    tools:context="it.app.hypertherm_demo.activity.StrutturaProfonditaActivity" >
 
     <LinearLayout
         android:layout_width="fill_parent"
@@ -25,7 +25,7 @@
                 android:layout_height="wrap_content"
                 android:paddingLeft="20sp"
                 android:textColor="@android:color/black"
-                android:textSize="40sp" />
+                android:textSize="20sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -75,7 +75,7 @@
                 android:layout_height="wrap_content"
                 android:paddingRight="40sp"
                 android:textColor="@android:color/black"
-                android:textSize="40sp" />
+                android:textSize="20sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -91,7 +91,7 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/button_chiaro"
                 android:textColor="@drawable/color"
-                android:textSize="35sp" />
+                android:textSize="20sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -107,7 +107,7 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/button_scuro"
                 android:textColor="@drawable/color"
-                android:textSize="35sp" />
+                android:textSize="20sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -123,7 +123,7 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/button_chiaro"
                 android:textColor="@drawable/color"
-                android:textSize="35sp" />
+                android:textSize="20sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -185,7 +185,7 @@
                 android:layout_height="wrap_content"
                 android:paddingRight="40sp"
                 android:textColor="@android:color/black"
-                android:textSize="40sp" />
+                android:textSize="20sp" />
         </LinearLayout>
 
         <LinearLayout

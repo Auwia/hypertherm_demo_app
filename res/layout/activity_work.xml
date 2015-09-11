@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="it.app.hypertherm.activity.WorkActivity" >
+    tools:context="it.app.hypertherm_demo.activity.WorkActivity" >
 
     <LinearLayout
         android:layout_width="fill_parent"
@@ -22,7 +22,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="@android:color/black"
-                android:textSize="40sp" />
+                android:textSize="20sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -145,7 +145,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="@android:color/black"
-                android:textSize="40sp"
+                android:textSize="18sp"
                 android:textStyle="bold" />
         </LinearLayout>
 
@@ -184,7 +184,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/novanta"
                     android:textColor="@android:color/white"
-                    android:textSize="20sp"
+                    android:textSize="10sp"
                     android:textStyle="bold" />
             </LinearLayout>
 
@@ -200,7 +200,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/ottanta"
                     android:textColor="@android:color/white"
-                    android:textSize="20sp"
+                    android:textSize="10sp"
                     android:textStyle="bold" />
             </LinearLayout>
 
@@ -216,7 +216,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/sessanta"
                     android:textColor="@android:color/white"
-                    android:textSize="20sp"
+                    android:textSize="10sp"
                     android:textStyle="bold" />
             </LinearLayout>
 
@@ -232,7 +232,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/settanta"
                     android:textColor="@android:color/white"
-                    android:textSize="20sp"
+                    android:textSize="10sp"
                     android:textStyle="bold" />
             </LinearLayout>
 
@@ -248,7 +248,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/cinquanta"
                     android:textColor="@android:color/white"
-                    android:textSize="20sp"
+                    android:textSize="10sp"
                     android:textStyle="bold" />
             </LinearLayout>
 
@@ -264,7 +264,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/quaranta"
                     android:textColor="@android:color/white"
-                    android:textSize="20sp"
+                    android:textSize="10sp"
                     android:textStyle="bold" />
             </LinearLayout>
 
@@ -280,7 +280,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/trenta"
                     android:textColor="@android:color/white"
-                    android:textSize="20sp"
+                    android:textSize="10sp"
                     android:textStyle="bold" />
             </LinearLayout>
 
@@ -296,7 +296,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/venti"
                     android:textColor="@android:color/white"
-                    android:textSize="20sp"
+                    android:textSize="10sp"
                     android:textStyle="bold" />
             </LinearLayout>
 
@@ -312,7 +312,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/dieci"
                     android:textColor="@android:color/white"
-                    android:textSize="20sp"
+                    android:textSize="10sp"
                     android:textStyle="bold" />
             </LinearLayout>
 
@@ -328,7 +328,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/zero"
                     android:textColor="@android:color/white"
-                    android:textSize="20sp"
+                    android:textSize="10sp"
                     android:textStyle="bold" />
             </LinearLayout>
         </LinearLayout>
@@ -729,7 +729,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textColor="@android:color/black"
-                        android:textSize="50sp"
+                        android:textSize="20sp"
                         android:textStyle="bold" />
                 </LinearLayout>
 
@@ -745,7 +745,7 @@
                         android:layout_height="wrap_content"
                         android:text="@string/gradicentigradi"
                         android:textColor="@android:color/black"
-                        android:textSize="30sp"
+                        android:textSize="15sp"
                         android:textStyle="bold" />
                 </LinearLayout>
             </LinearLayout>
@@ -769,7 +769,7 @@
                         android:layout_height="wrap_content"
                         android:text="@string/sottozero"
                         android:textColor="@android:color/black"
-                        android:textSize="35sp"
+                        android:textSize="20sp"
                         android:textStyle="bold" />
                 </LinearLayout>
 
@@ -843,7 +843,7 @@
                         android:layout_height="wrap_content"
                         android:text="@string/sottozero"
                         android:textColor="@android:color/black"
-                        android:textSize="50sp"
+                        android:textSize="20sp"
                         android:textStyle="bold" />
                 </LinearLayout>
 
@@ -859,7 +859,7 @@
                         android:layout_height="wrap_content"
                         android:text="@string/gradicentigradi"
                         android:textColor="@android:color/black"
-                        android:textSize="30sp"
+                        android:textSize="15sp"
                         android:textStyle="bold" />
                 </LinearLayout>
             </LinearLayout>
@@ -883,7 +883,7 @@
                         android:layout_height="wrap_content"
                         android:text="@string/sottozero"
                         android:textColor="@android:color/black"
-                        android:textSize="35sp"
+                        android:textSize="20sp"
                         android:textStyle="bold" />
                 </LinearLayout>
 
@@ -957,7 +957,7 @@
                         android:layout_height="wrap_content"
                         android:text="@string/sottozero"
                         android:textColor="@android:color/black"
-                        android:textSize="50sp"
+                        android:textSize="20sp"
                         android:textStyle="bold" />
                 </LinearLayout>
 
@@ -973,7 +973,7 @@
                         android:layout_height="wrap_content"
                         android:text="@string/watt"
                         android:textColor="@android:color/black"
-                        android:textSize="30sp"
+                        android:textSize="15sp"
                         android:textStyle="bold" />
                 </LinearLayout>
             </LinearLayout>
@@ -997,7 +997,7 @@
                         android:layout_height="wrap_content"
                         android:text="@string/sottozero"
                         android:textColor="@android:color/black"
-                        android:textSize="35sp"
+                        android:textSize="20sp"
                         android:textStyle="bold" />
                 </LinearLayout>
 
@@ -1071,7 +1071,7 @@
                         android:layout_height="wrap_content"
                         android:text="@string/zerozero"
                         android:textColor="@android:color/black"
-                        android:textSize="50sp"
+                        android:textSize="20sp"
                         android:textStyle="bold" />
                 </LinearLayout>
 
@@ -1103,7 +1103,7 @@
                         android:layout_height="wrap_content"
                         android:text="@string/zerozero"
                         android:textColor="@android:color/black"
-                        android:textSize="35sp"
+                        android:textSize="18sp"
                         android:textStyle="bold" />
                 </LinearLayout>
 

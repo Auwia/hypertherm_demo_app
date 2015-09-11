@@ -1,7 +1,7 @@
-package it.app.hypertherm.activity;
+package it.app.hypertherm_demo.activity;
 
 import it.app.hypertherm.R;
-import it.app.hypertherm.util.Utility;
+import it.app.hypertherm_demo.util.Utility;
 import android.app.Activity;
 import android.content.Intent;
 import android.content.SharedPreferences;

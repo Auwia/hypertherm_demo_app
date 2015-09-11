@@ -1,4 +1,6 @@
-package it.app.hypertherm;
+package it.app.hypertherm_demo;
+
+import it.app.hypertherm.R;
 
 import java.util.ArrayList;
 

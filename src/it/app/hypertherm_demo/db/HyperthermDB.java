@@ -1,6 +1,6 @@
-package it.app.hypertherm.db;
+package it.app.hypertherm_demo.db;
 
-import it.app.hypertherm.util.Utility;
+import it.app.hypertherm_demo.util.Utility;
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;

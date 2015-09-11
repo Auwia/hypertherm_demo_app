@@ -1,10 +1,9 @@
-package it.app.hypertherm.activity;
+package it.app.hypertherm_demo.activity;
 
-import it.app.hypertherm.PC_TO_CY;
 import it.app.hypertherm.R;
-import it.app.hypertherm.util.Utility;
+import it.app.hypertherm_demo.PC_TO_CY;
+import it.app.hypertherm_demo.util.Utility;
 
-import java.io.IOException;
 import java.io.InputStream;
 import java.lang.Thread.State;
 import java.text.DecimalFormat;
@@ -29,8 +28,6 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.SeekBar;
 import android.widget.TextView;
-
-import com.dwin.navy.serialportapi.SerialPortOpt;
 
 public class WorkActivity extends Activity {
 
@@ -76,8 +73,6 @@ public class WorkActivity extends Activity {
 	private boolean READ_ENABLE = true;
 
 	private SharedPreferences preferences;
-
-	private SerialPortOpt serialPort;
 
 	private InputStream mInputStream;
 	private ReadThread mReadThread;
@@ -171,9 +166,8 @@ public class WorkActivity extends Activity {
 	private void SendPacket(int numBytes) {
 
 		try {
-			serialPort.getOutputStream().write(writeusbdata, 0, numBytes);
 
-		} catch (IOException e) {
+		} catch (Exception e) {
 
 			utility.appendLog("SendPacket: HO PERSO LA SCHEDA");
 
@@ -235,14 +229,12 @@ public class WorkActivity extends Activity {
 				if (mInputStream == null)
 					return;
 
-				InputStream input_stream = serialPort.getInputStream();
-
 				int readcount;
 				try {
 
 					Thread.sleep(1000);
 
-					readcount = input_stream.read(buf, 0, 64);
+					readcount = 1;
 
 					if (readcount > 0) {
 
@@ -437,10 +429,7 @@ public class WorkActivity extends Activity {
 							}
 						}
 					}
-				} catch (IOException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				} catch (InterruptedException e) {
+				} catch (Exception e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
@@ -984,18 +973,7 @@ public class WorkActivity extends Activity {
 	}
 
 	private void initSerialPort() {
-		serialPort = new SerialPortOpt();
-		serialPort.mDevNum = 0;
-		serialPort.mDataBits = 8;
-		serialPort.mSpeed = 38400;
-		serialPort.mStopBits = 1;
-		serialPort.mParity = 'n';
-		serialPort.openDev(serialPort.mDevNum);
-		serialPort.setSpeed(serialPort.mFd, serialPort.mSpeed);
-		serialPort.setParity(serialPort.mFd, serialPort.mDataBits,
-				serialPort.mStopBits, serialPort.mParity);
 
-		mInputStream = this.serialPort.getInputStream();
 		mReadThread = new ReadThread(mInputStream);
 		mReadThread.start();
 

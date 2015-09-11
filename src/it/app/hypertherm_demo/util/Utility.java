@@ -1,9 +1,9 @@
-package it.app.hypertherm.util;
+package it.app.hypertherm_demo.util;
 
-import it.app.hypertherm.Menu_app;
 import it.app.hypertherm.R;
-import it.app.hypertherm.db.HyperthermDB;
-import it.app.hypertherm.db.HyperthermDataSource;
+import it.app.hypertherm_demo.Menu_app;
+import it.app.hypertherm_demo.db.HyperthermDB;
+import it.app.hypertherm_demo.db.HyperthermDataSource;
 
 import java.io.BufferedWriter;
 import java.io.File;

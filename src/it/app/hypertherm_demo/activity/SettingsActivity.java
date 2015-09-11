@@ -1,4 +1,4 @@
-package it.app.hypertherm.activity;
+package it.app.hypertherm_demo.activity;
 
 import it.app.hypertherm.R;
 import android.app.Activity;
